@@ -293,12 +293,6 @@ class ScrollSnapListState extends State<ScrollSnapList> {
   }
 
   @override
-  void dispose() {
-    widget.listController.dispose();
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Container(
       padding: widget.padding,
